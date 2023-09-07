@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     host : true,
   },
-  base:"http://192.168.1.12:5173/",
+  base:"/takatuf-gallery/"
 })
