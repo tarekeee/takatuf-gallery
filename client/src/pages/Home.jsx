@@ -60,7 +60,7 @@ const Home = () => {
           ملتقطات من المخيم الصيفي<br className="max-md:hidden"></br> 2023
         </h1>
       </div>
-      <div className="mb-24 mt-10">
+      <div className="mb-24 mt-4">
         <FormField
           LabelName={"ابحث عن احد المنشورات"}
           type={"text"}
