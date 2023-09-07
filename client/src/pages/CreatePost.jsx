@@ -18,7 +18,7 @@ const CreatePost = () => {
       setLoading(true);
 
       try {
-        const res = await fetch("http://192.168.1.12:8080/api/v1/post", {
+        const res = await fetch("https://takatuf-gallery.onrender.com/api/v1/post", {
           method: "POST",
           headers: {"Content-Type" : "application/json"},
           body : JSON.stringify(form)

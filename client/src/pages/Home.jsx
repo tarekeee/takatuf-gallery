@@ -21,7 +21,7 @@ const Home = () => {
     const fetchPosts = async () => {
       setLoading(true);
       try {
-        const res = await fetch("http://192.168.1.12:8080/api/v1/post", {
+        const res = await fetch("https://takatuf-gallery.onrender.com/api/v1/post", {
           method: "GET",
           headers: { "Content-type": "application/json" },
         });
